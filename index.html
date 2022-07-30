@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="js.js" defer></script>
+	<title>exercise</title>
+</head>
+<body>
+	
+	<div class="newBook-div">
+		<button id="btn-newBook">
+			New Book
+		</button>
+	</div>
+
+	<div id="booksFormPanel" style="display: none">
+		<form class="books-form">
+			<input type="text" name="bTitle" placeholder="Title">
+			<input type="text" name="bAuthor" placeholder="Author">
+			<input type="number" name="bPages" placeholder="Pages">
+				
+			<div class="checkbox-input">
+		    	<label for = "readBook"> Already read the book? </label>
+				<input type = "checkbox" id = "readBook">
+			</div>
+
+			<div>
+				<button id="btn-addBook" type="submit" > Add Book </button>
+				<button id="btn-closeForm"> Close </button>
+			</div>
+		</form>
+	</div>
+	
+	KribeCu
+	
+	<main class="main container">
+			<div class='books-panel' id="booksPanel"></div>
+	</main>
+</body>
+</html>

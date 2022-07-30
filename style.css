@@ -1,0 +1,51 @@
+body {
+  background-color: cadetblue;
+  font-family: cursive;
+  text-align: center;
+}
+
+input,
+button {
+	margin: 10px;
+	font-family: cursive;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.main {
+  	padding-top: 40px;
+}
+
+.books-form {
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 5px;
+}
+
+
+.books-panel {
+	display: grid;
+  	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  	gap: 20px 20px;
+	
+}
+
+.book-card {
+	background-color: lightgrey;
+	border: 3px solid dimgrey;
+  	border-radius: 6px;
+}
+
+.btn-green{
+	background-color: seagreen;
+}
+
+.btn-red{
+	background-color: indianred;
+}
+
